@@ -36,3 +36,12 @@
   color: white;
   border-radius: 28px;
 }
+
+button {
+  transition: 1s;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}

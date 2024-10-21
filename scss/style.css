@@ -65,127 +65,21 @@ button {
   border-radius: 28px;
 }
 
+button {
+  transition: 1s;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
+
 .container {
   max-width: 1274px;
   margin: auto;
   width: 95%;
 }
 
-@media (max-width: 900px) and (min-width: 568px) {
-  .container {
-    width: 95%;
-  }
-  .about_section {
-    width: 95%;
-  }
-  .about_section .mountain .blog_section {
-    margin-top: -180px;
-    margin-left: -100px;
-    min-height: 280px;
-    min-width: 100px;
-    position: relative;
-  }
-  .about_section .mountain .blog_section br {
-    display: block;
-  }
-  .about_section .mountain .image_wrapper {
-    margin-top: -100px;
-    margin-left: -100px;
-  }
-  .about_section .mountain .image_wrapper .snowy_mountain .snowy_mountain_new {
-    max-width: 50px;
-    max-height: 50px;
-  }
-  .about_section .mountain .image_wrapper .a_chair .a_chair_new {
-    max-width: 50px;
-    max-height: 50px;
-  }
-  .about_section .mountain .image_wrapper .mountain_cloudy .mountain_cloudy_new {
-    max-width: 50px;
-    max-height: 50px;
-  }
-  br {
-    display: none;
-  }
-  .container {
-    width: 95%;
-  }
-  .Oтели {
-    display: none;
-  }
-  .top_bar {
-    width: 95%;
-  }
-  .about_company {
-    flex-direction: column-reverse;
-    width: 95%;
-  }
-  .about_company .chiziq {
-    display: none;
-  }
-  .about_company .about_page {
-    display: none;
-  }
-  .about_company .turizim {
-    display: block;
-  }
-  .mission {
-    display: flex;
-    align-items: center;
-  }
-  .mission .our_values .plane {
-    height: 500px;
-  }
-  .mission .our_mission {
-    margin-top: 50px;
-  }
-  .box {
-    margin-left: 20px;
-    margin-top: 40px;
-  }
-  .plane_top {
-    width: 95%;
-    overflow: hidden;
-  }
-  .credits {
-    flex-wrap: wrap;
-  }
-  .company_history {
-    display: flex;
-    width: 95%;
-    overflow: hidden;
-  }
-  .company_history .mountain_top_view {
-    width: 550px;
-  }
-  .footer {
-    width: 95%;
-  }
-}
-@media (min-width: 320px) and (max-width: 990px) {
-  .section-4 {
-    display: block;
-    overflow: hidden;
-    width: 95%;
-  }
-  .btn_secondary {
-    display: block;
-  }
-  .btn_secondary_new {
-    display: none;
-  }
-  .company_overview_section {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 95%;
-  }
-}
-@media (min-width: 991px) {
-  .section-4 {
-    display: none;
-  }
-}
 .top_bar {
   display: flex;
   justify-content: space-between;
@@ -194,7 +88,7 @@ button {
 }
 .top_bar .social_media_links {
   display: flex;
-  gap: 40px;
+  gap: 20px;
 }
 .top_bar .user_panel {
   display: flex;
@@ -340,9 +234,6 @@ button {
 .about_company .about_page {
   margin-right: 60px;
 }
-.about_company .company_info {
-  margin-left: 50px;
-}
 .about_company .company_info .company_history {
   display: flex;
   gap: 15px;
@@ -483,4 +374,233 @@ button {
   top: 10px;
   right: 10px;
   cursor: pointer;
+}
+
+@media (max-width: 990px) {
+  .container {
+    width: 95%;
+  }
+  .btn_primary {
+    display: none;
+  }
+  .about_section {
+    width: 95%;
+  }
+  .about_section .mountain .blog_section {
+    top: -280px;
+    margin-left: -100px;
+    min-height: 280px;
+    min-width: 100px;
+    position: relative;
+  }
+  .about_section .mountain .blog_section br {
+    display: block;
+  }
+  .about_section .mountain .image_wrapper {
+    margin-top: -100px;
+    margin-left: -100px;
+  }
+  .about_section .mountain .image_wrapper .snowy_mountain .snowy_mountain_new {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  .about_section .mountain .image_wrapper .a_chair .a_chair_new {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  .about_section .mountain .image_wrapper .mountain_cloudy .mountain_cloudy_new {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  br {
+    display: none;
+  }
+  .container {
+    width: 95%;
+  }
+  .Oтели {
+    display: none;
+  }
+  .top_bar {
+    width: 95%;
+  }
+  .about_company {
+    flex-direction: column-reverse;
+    width: 95%;
+  }
+  .about_company .chiziq {
+    display: none;
+  }
+  .about_company .about_page {
+    display: none;
+  }
+  .about_company .turizim {
+    display: block;
+  }
+  .mission {
+    display: flex;
+    align-items: center;
+  }
+  .mission .our_values .plane {
+    height: 500px;
+  }
+  .mission .our_mission {
+    margin-top: 50px;
+  }
+  .box {
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+  .plane_top {
+    width: 95%;
+    overflow: hidden;
+  }
+  .credits {
+    flex-wrap: wrap;
+  }
+  .company_history {
+    display: flex;
+    width: 95%;
+    overflow: hidden;
+  }
+  .company_history .mountain_top_view {
+    width: 550px;
+  }
+  .footer {
+    width: 95%;
+  }
+}
+@media (min-width: 320px) and (max-width: 990px) {
+  .section-4 {
+    display: block;
+    overflow: hidden;
+    width: 95%;
+  }
+  .btn_secondary {
+    display: block;
+  }
+  .btn_secondary_new {
+    display: none;
+  }
+  .company_overview_section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+  }
+}
+@media (min-width: 991px) {
+  .section-4 {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  body {
+    display: none;
+  }
+}
+@media (max-width: 568px) {
+  .container {
+    width: 90%;
+  }
+  .social_media_links {
+    display: none;
+    gap: 0;
+  }
+  .top_bar {
+    width: 90%;
+  }
+  .about_company {
+    margin-top: 80px;
+  }
+  .header {
+    width: 50%;
+  }
+  .btn {
+    display: none;
+  }
+  .btn_primary {
+    display: none;
+  }
+  .turizim {
+    display: none;
+  }
+  .Страны {
+    display: none;
+  }
+  .plane_top {
+    display: none;
+  }
+  .header {
+    width: 95%;
+  }
+  .blog_section {
+    display: none;
+  }
+  .image_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 200px;
+    margin-left: 40%;
+  }
+  .about_page {
+    display: none;
+  }
+  .company_history {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .our_values {
+    width: 90%;
+  }
+  .what_we_do {
+    display: block;
+    margin-top: -350px;
+  }
+  .mission {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    margin-top: 350px;
+  }
+  .about_page {
+    display: block;
+    width: 90%;
+  }
+  .credits {
+    width: 90%;
+    margin-left: 10px;
+  }
+  .hr_2 {
+    display: none;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+  }
+  .thumbnail {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    gap: 90%;
+    justify-content: space-around;
+  }
+  .company_overview_section {
+    align-items: center;
+    display: flex;
+  }
+  .eur {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .eur .visa {
+    margin-top: 130px;
+  }
+  .eur .usd {
+    margin-top: 80px;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -1,13 +1,12 @@
-@import "./scss/defolt";
+@import "./scss/defolt"; // Umumiy defolt uslublar
+@import "./scss/button"; // Umumiy tugmalar uslubi
+@import "./scss/contener"; // Umumiy konteynerlar uchun uslublar
+@import "./scss/main"; // Asosiy uslublar
 
-@import "./scss/button";
+// Ekran o'lchamlariga qarab
 
-@import "./scss/contener";
+@import "./scss/tablet"; // Tablet uchun uslublar
 
-@import "./scss/phone";
+@import "./scss/mobile_horisontal"; // Gorizontal mobil uslublar
 
-@import "./scss/mobile_horisontal";
-
-@import "./scss/tablet";
-
-@import "./scss/main";
+@import "./scss/phone"; // Telefon uchun uslublar

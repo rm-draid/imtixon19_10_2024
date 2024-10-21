@@ -1,0 +1,107 @@
+@media (max-width: 568px) {
+  .container {
+    width: 90%;
+  }
+  .social_media_links {
+    display: none;
+    gap: 0;
+  }
+  .top_bar {
+    width: 90%;
+  }
+  .about_company {
+    margin-top: 80px;
+  }
+  .header {
+    width: 50%;
+  }
+
+  .btn {
+    display: none;
+  }
+  .btn_primary {
+    display: none;
+  }
+  .turizim {
+    display: none;
+  }
+  .Страны {
+    display: none;
+  }
+  .plane_top {
+    display: none;
+  }
+  .header {
+    width: 95%;
+  }
+  .blog_section {
+    display: none;
+  }
+  .image_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 200px;
+    margin-left: 40%;
+  }
+  .about_page {
+    display: none;
+  }
+  .company_history {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .our_values {
+    width: 90%;
+  }
+  .what_we_do {
+    display: block;
+    margin-top: -350px;
+  }
+  .mission {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    margin-top: 350px;
+  }
+  .about_page {
+    display: block;
+    width: 90%;
+  }
+  .credits {
+    width: 90%;
+    margin-left: 10px;
+  }
+  .hr_2 {
+    display: none;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+  }
+  .thumbnail {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    gap: 90%;
+    justify-content: space-around;
+  }
+  .company_overview_section {
+    align-items: center;
+    display: flex;
+  }
+  .eur {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    .visa {
+      margin-top: 130px;
+    }
+    .usd {
+      margin-top: 80px;
+    }
+  }
+}

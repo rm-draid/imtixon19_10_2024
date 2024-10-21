@@ -5,7 +5,7 @@
   margin-top: 40px;
   .social_media_links {
     display: flex;
-    gap: 40px;
+    gap: 20px;
   }
   .user_panel {
     display: flex;
@@ -37,6 +37,7 @@
 .overlay {
   position: fixed;
   top: 0;
+
   left: 0;
   width: 100vw;
   height: 100vh;
@@ -154,7 +155,6 @@
     margin-right: 60px;
   }
   .company_info {
-    margin-left: 50px;
     .company_history {
       display: flex;
       gap: 15px;

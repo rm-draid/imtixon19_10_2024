@@ -1,6 +1,9 @@
-@media (max-width: 900px) and (min-width: 568px) {
+@media (max-width: 990px) {
   .container {
     width: 95%;
+  }
+  .btn_primary {
+    display: none;
   }
   .about_section {
     width: 95%;
@@ -9,7 +12,8 @@
         br {
           display: block;
         }
-        margin-top: -180px;
+
+        top: -280px;
         margin-left: -100px;
         min-height: 280px;
         min-width: 100px;
